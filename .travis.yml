@@ -26,7 +26,7 @@ deploy:
   app: "complex-docker"
   env: "Complex-docker-env"
   bucket_name: "elasticbeanstalk-eu-north-1-404087717260"
-  bucket_path: "docker-multi"
+  bucket_path: "complex-docker"
   on:
     branch: main
   access_key_id: $AWS_ACCESS_KEY
